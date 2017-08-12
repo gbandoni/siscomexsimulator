@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="id" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_ID_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_ID_DESC" readonly="true" />
+		<field name="idcaso" type="text" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_IDCASO_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_IDCASO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="tabela" type="text" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_TABELA_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_TABELA_DESC" maxlength="32" required="true" multiple="false" />
+		<field name="campo" type="text" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_CAMPO_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_CAMPO_DESC" maxlength="32" required="true" multiple="false" />
+		<field name="valor" type="textarea" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_VALOR_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_VALOR_DESC" maxlength="255" required="true" multiple="false" />
+		<field name="ordem" type="text" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_ORDEM_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_ORDEM_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="inviabiliza" type="radio" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_INVIABILIZA_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_INVIABILIZA_DESC" maxlength="4" required="true" multiple="false" >
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="mensagem" type="textarea" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_MENSAGEM_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_MENSAGEM_DESC" maxlength="255" required="true" multiple="false" />
+		<field name="dica" type="textarea" default="" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_DICA_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_DICA_DESC" maxlength="255" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXRESPOSTACASO_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXRESPOSTACASO_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

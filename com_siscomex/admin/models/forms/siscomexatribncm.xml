@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="ncm" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXATRIBNCM_NCM_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_NCM_DESC" readonly="true" />
+		<field name="atributoncm" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXATRIBNCM_ATRIBUTONCM_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_ATRIBUTONCM_DESC" readonly="true" />
+		<field name="multiplo" type="text" default="N" label="COM_SISCOMEX_SISCOMEXATRIBNCM_MULTIPLO_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_MULTIPLO_DESC" maxlength="1" required="true" multiple="false" />
+		<field name="nivel" type="text" default="" label="COM_SISCOMEX_SISCOMEXATRIBNCM_NIVEL_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_NIVEL_DESC" maxlength="3" required="true" multiple="false" />
+		<field name="atributo" type="text" default="" label="COM_SISCOMEX_SISCOMEXATRIBNCM_ATRIBUTO_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_ATRIBUTO_DESC" maxlength="249" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXATRIBNCM_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXATRIBNCM_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

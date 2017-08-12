@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="numerodocumentocarga" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_NUMERODOCUMENTOCARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_NUMERODOCUMENTOCARGA_DESC" readonly="true" />
+		<field name="ordem" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_ORDEM_LABEL" description="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_ORDEM_DESC" readonly="true" />
+		<field name="codigotipodocumentoinstrucaodespacho" type="text" default="" label="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_CODIGOTIPODOCUMENTOINSTRUCAODESPACHO_LABEL" description="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_CODIGOTIPODOCUMENTOINSTRUCAODESPACHO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="numerodocumentoinstrucaodespacho" type="text" default="" label="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_NUMERODOCUMENTOINSTRUCAODESPACHO_LABEL" description="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_NUMERODOCUMENTOINSTRUCAODESPACHO_DESC" maxlength="25" required="false" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXDOCUMENTOSDI_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

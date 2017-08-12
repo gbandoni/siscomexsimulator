@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="numerodocumentocarga" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMERODOCUMENTOCARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMERODOCUMENTOCARGA_DESC" readonly="true" />
+		<field name="codigotipodocumentocarga" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPODOCUMENTOCARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPODOCUMENTOCARGA_DESC" maxlength="2" required="false" multiple="false" />
+		<field name="codigomoedaseguro" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOMOEDASEGURO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOMOEDASEGURO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigomoedafrete" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOMOEDAFRETE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOMOEDAFRETE_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigomotivotransmissao" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOMOTIVOTRANSMISSAO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOMOTIVOTRANSMISSAO_DESC" maxlength="11" required="false" multiple="false" />
+		<field name="cargapesobruto" type="text" default="0.00000" label="COM_SISCOMEX_SISCOMEXDI_CARGAPESOBRUTO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CARGAPESOBRUTO_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="cargapesoliquido" type="text" default="0.00000" label="COM_SISCOMEX_SISCOMEXDI_CARGAPESOLIQUIDO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CARGAPESOLIQUIDO_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="codigobandeiratranspote" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOBANDEIRATRANSPOTE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOBANDEIRATRANSPOTE_DESC" maxlength="5" required="false" multiple="false" />
+		<field name="codigomodalidadedespacho" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOMODALIDADEDESPACHO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOMODALIDADEDESPACHO_DESC" maxlength="4" required="true" multiple="false" />
+		<field name="codigoorigemdi" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOORIGEMDI_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOORIGEMDI_DESC" maxlength="1" required="true" multiple="false" />
+		<field name="codigopaisprocedenciacarga" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOPAISPROCEDENCIACARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOPAISPROCEDENCIACARGA_DESC" maxlength="5" required="true" multiple="false" />
+		<field name="codigopaisimportador" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOPAISIMPORTADOR_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOPAISIMPORTADOR_DESC" maxlength="5" required="true" multiple="false" />
+		<field name="codigorecintoalfandegado" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGORECINTOALFANDEGADO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGORECINTOALFANDEGADO_DESC" maxlength="7" required="true" multiple="false" />
+		<field name="codigosetorarmazenamento" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOSETORARMAZENAMENTO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOSETORARMAZENAMENTO_DESC" maxlength="3" required="false" multiple="false" />
+		<field name="codigotipoagentecarga" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOAGENTECARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOAGENTECARGA_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="codigotipoconsignatario" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOCONSIGNATARIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOCONSIGNATARIO_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="codigotipodeclaracao" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPODECLARACAO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPODECLARACAO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigotipoimportador" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOIMPORTADOR_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOIMPORTADOR_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigotipomanifesto" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOMANIFESTO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOMANIFESTO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigotipopagamentotributario" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOPAGAMENTOTRIBUTARIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTIPOPAGAMENTOTRIBUTARIO_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="codigourfcargaentrada" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOURFCARGAENTRADA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOURFCARGAENTRADA_DESC" maxlength="7" required="true" multiple="false" />
+		<field name="codigourfdespacho" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOURFDESPACHO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOURFDESPACHO_DESC" maxlength="7" required="true" multiple="false" />
+		<field name="codigoutilizacaodocumentocarga" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOUTILIZACAODOCUMENTOCARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOUTILIZACAODOCUMENTOCARGA_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="codigoviatransporte" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOVIATRANSPORTE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOVIATRANSPORTE_DESC" maxlength="2" required="true" multiple="false" />
+		<field name="datachegadacarga" type="calendar" default="" label="COM_SISCOMEX_SISCOMEXDI_DATACHEGADACARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_DATACHEGADACARGA_DESC" maxlength="255" required="false" multiple="false" />
+		<field name="dataembarque" type="calendar" default="" label="COM_SISCOMEX_SISCOMEXDI_DATAEMBARQUE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_DATAEMBARQUE_DESC" maxlength="255" required="false" multiple="false" />
+		<field name="identificacaodeclaracaoimportacao" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_IDENTIFICACAODECLARACAOIMPORTACAO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_IDENTIFICACAODECLARACAOIMPORTACAO_DESC" maxlength="10" required="false" multiple="false" />
+		<field name="codigoimportador" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOIMPORTADOR_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOIMPORTADOR_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="indicadormultimodalviatransporte" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_INDICADORMULTIMODALVIATRANSPORTE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_INDICADORMULTIMODALVIATRANSPORTE_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="indicadoroperacaofundap" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_INDICADOROPERACAOFUNDAP_LABEL" description="COM_SISCOMEX_SISCOMEXDI_INDICADOROPERACAOFUNDAP_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="informacoescomplementares" type="textarea" default="" label="COM_SISCOMEX_SISCOMEXDI_INFORMACOESCOMPLEMENTARES_LABEL" description="COM_SISCOMEX_SISCOMEXDI_INFORMACOESCOMPLEMENTARES_DESC" maxlength="255" required="false" multiple="false" />
+		<field name="codigoconsignatorio" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOCONSIGNATORIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOCONSIGNATORIO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigolocalembarque" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOLOCALEMBARQUE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOLOCALEMBARQUE_DESC" maxlength="5" required="true" multiple="false" />
+		<field name="nomelocalembarque" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NOMELOCALEMBARQUE_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NOMELOCALEMBARQUE_DESC" maxlength="11" required="false" multiple="false" />
+		<field name="codigotransportador" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOTRANSPORTADOR_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOTRANSPORTADOR_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="codigoveiculo" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_CODIGOVEICULO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_CODIGOVEICULO_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="numeroagentecarga" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROAGENTECARGA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROAGENTECARGA_DESC" maxlength="14" required="false" multiple="false" />
+		<field name="numeroconsignatario" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROCONSIGNATARIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROCONSIGNATARIO_DESC" maxlength="14" required="false" multiple="false" />
+		<field name="numerocontapagamentotributario" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROCONTAPAGAMENTOTRIBUTARIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROCONTAPAGAMENTOTRIBUTARIO_DESC" maxlength="19" required="false" multiple="false" />
+		<field name="numerocpfrepresentantelegal" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROCPFREPRESENTANTELEGAL_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROCPFREPRESENTANTELEGAL_DESC" maxlength="11" required="false" multiple="false" />
+		<field name="numerodocumentocargamaster" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMERODOCUMENTOCARGAMASTER_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMERODOCUMENTOCARGAMASTER_DESC" maxlength="18" required="false" multiple="false" />
+		<field name="numeroimportador" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROIMPORTADOR_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROIMPORTADOR_DESC" maxlength="14" required="false" multiple="false" />
+		<field name="numeromanifesto" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_NUMEROMANIFESTO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_NUMEROMANIFESTO_DESC" maxlength="15" required="false" multiple="false" />
+		<field name="totaladicoes" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_TOTALADICOES_LABEL" description="COM_SISCOMEX_SISCOMEXDI_TOTALADICOES_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valorfreteterritorionacionalmoedanegociada" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORFRETETERRITORIONACIONALMOEDANEGOCIADA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORFRETETERRITORIONACIONALMOEDANEGOCIADA_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valortotalfretecollect" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETECOLLECT_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETECOLLECT_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valortotalfretemoedanacional" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETEMOEDANACIONAL_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETEMOEDANACIONAL_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valortotalfreteprepaid" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETEPREPAID_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALFRETEPREPAID_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valortotalmlemoedanacional" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALMLEMOEDANACIONAL_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALMLEMOEDANACIONAL_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="terminalrecintoalfandegario" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_TERMINALRECINTOALFANDEGARIO_LABEL" description="COM_SISCOMEX_SISCOMEXDI_TERMINALRECINTOALFANDEGARIO_DESC" maxlength="12" required="true" multiple="false" />
+		<field name="valortotalseguromoedanacional" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALSEGUROMOEDANACIONAL_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALSEGUROMOEDANACIONAL_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valortotalseguromoedanegociada" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_VALORTOTALSEGUROMOEDANEGOCIADA_LABEL" description="COM_SISCOMEX_SISCOMEXDI_VALORTOTALSEGUROMOEDANEGOCIADA_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="id" type="text" default="" label="COM_SISCOMEX_SISCOMEXDI_ID_LABEL" description="COM_SISCOMEX_SISCOMEXDI_ID_DESC" maxlength="5" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXDI_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXDI_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

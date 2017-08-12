@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="codigo" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_CODIGO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_CODIGO_DESC" readonly="true" />
+		<field name="tipopesssoa" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_TIPOPESSSOA_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_TIPOPESSSOA_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="razaosocial" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_RAZAOSOCIAL_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_RAZAOSOCIAL_DESC" maxlength="60" required="false" multiple="false" />
+		<field name="telefone" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_TELEFONE_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_TELEFONE_DESC" maxlength="15" required="false" multiple="false" />
+		<field name="endereco" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_ENDERECO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_ENDERECO_DESC" maxlength="40" required="false" multiple="false" />
+		<field name="numero" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_NUMERO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_NUMERO_DESC" maxlength="6" required="false" multiple="false" />
+		<field name="complemento" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_COMPLEMENTO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_COMPLEMENTO_DESC" maxlength="21" required="false" multiple="false" />
+		<field name="bairro" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_BAIRRO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_BAIRRO_DESC" maxlength="25" required="false" multiple="false" />
+		<field name="municipio" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_MUNICIPIO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_MUNICIPIO_DESC" maxlength="7" required="false" multiple="false" />
+		<field name="estado" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_ESTADO_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_ESTADO_DESC" maxlength="2" required="false" multiple="false" />
+		<field name="cep" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_CEP_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_CEP_DESC" maxlength="8" required="false" multiple="false" />
+		<field name="pais" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_PAIS_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_PAIS_DESC" maxlength="3" required="false" multiple="false" />
+		<field name="email" type="text" default="" label="COM_SISCOMEX_SISCOMEXEMPRESAS_EMAIL_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_EMAIL_DESC" maxlength="64" required="false" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXEMPRESAS_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXEMPRESAS_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="codigo" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_CODIGO_LABEL" description="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_CODIGO_DESC" readonly="true" />
+		<field name="descricao" type="text" default="" label="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_DESCRICAO_LABEL" description="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_DESCRICAO_DESC" maxlength="120" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXINSTFINANCEIRA_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

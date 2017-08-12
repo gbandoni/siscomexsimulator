@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="codigo_tipo" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_CODIGO_TIPO_LABEL" description="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_CODIGO_TIPO_DESC" readonly="true" />
+		<field name="tipo_declaracao" type="text" default="1" label="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_TIPO_DECLARACAO_LABEL" description="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_TIPO_DECLARACAO_DESC" maxlength="1" required="true" multiple="false" />
+		<field name="descricao_tipo" type="text" default="" label="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_DESCRICAO_TIPO_LABEL" description="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_DESCRICAO_TIPO_DESC" maxlength="50" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXTIPODECLARACAO_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="codigo" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_CODIGO_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_CODIGO_DESC" readonly="true" />
+		<field name="regiao" type="text" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_REGIAO_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_REGIAO_DESC" maxlength="2" required="true" multiple="false" />
+		<field name="nomeporto" type="text" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_NOMEPORTO_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_NOMEPORTO_DESC" maxlength="25" required="true" multiple="false" />
+		<field name="estado" type="text" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_ESTADO_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_ESTADO_DESC" maxlength="2" required="true" multiple="false" />
+		<field name="terminal" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_TERMINAL_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_TERMINAL_DESC" readonly="true" />
+		<field name="descricao" type="text" default="" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_DESCRICAO_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_DESCRICAO_DESC" maxlength="80" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXRECINTOALFANDEGADO_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

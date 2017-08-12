@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="numerodocumentocarga" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NUMERODOCUMENTOCARGA_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NUMERODOCUMENTOCARGA_DESC" readonly="true" />
+		<field name="numeroadicao" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NUMEROADICAO_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NUMEROADICAO_DESC" readonly="true" />
+		<field name="nomeunidademedidacomercializada" type="text" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NOMEUNIDADEMEDIDACOMERCIALIZADA_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_NOMEUNIDADEMEDIDACOMERCIALIZADA_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="quantidademercadoriaunidadecomercializada" type="text" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_QUANTIDADEMERCADORIAUNIDADECOMERCIALIZADA_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_QUANTIDADEMERCADORIAUNIDADECOMERCIALIZADA_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="textodetalhamentomercadoria" type="textarea" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_TEXTODETALHAMENTOMERCADORIA_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_TEXTODETALHAMENTOMERCADORIA_DESC" maxlength="255" required="false" multiple="false" />
+		<field name="valorunidadelocalembarque" type="text" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_VALORUNIDADELOCALEMBARQUE_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_VALORUNIDADELOCALEMBARQUE_DESC" maxlength="20" required="false" multiple="false" />
+		<field name="valorunidademedidacondicaovenda" type="text" default="" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_VALORUNIDADEMEDIDACONDICAOVENDA_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_VALORUNIDADEMEDIDACONDICAOVENDA_DESC" maxlength="20" required="false" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXMERCADORIAADI_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXMERCADORIAADI_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

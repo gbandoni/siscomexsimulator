@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="idmoeda" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_IDMOEDA_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_IDMOEDA_DESC" readonly="true" />
+		<field name="codigo" type="text" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_CODIGO_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_CODIGO_DESC" maxlength="3" required="true" multiple="false" />
+		<field name="nome" type="text" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_NOME_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_NOME_DESC" maxlength="30" required="true" multiple="false" />
+		<field name="simbolo" type="text" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_SIMBOLO_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_SIMBOLO_DESC" maxlength="10" required="false" multiple="false" />
+		<field name="pais" type="text" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_PAIS_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_PAIS_DESC" maxlength="5" required="true" multiple="false" />
+		<field name="tipo" type="text" default="" label="COM_SISCOMEX_SISCOMEXMOEDAS_TIPO_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_TIPO_DESC" maxlength="1" required="false" multiple="false" />
+		<field name="dataexclusao" type="calendar" default="0000-00-00" label="COM_SISCOMEX_SISCOMEXMOEDAS_DATAEXCLUSAO_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_DATAEXCLUSAO_DESC" maxlength="255" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXMOEDAS_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXMOEDAS_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>

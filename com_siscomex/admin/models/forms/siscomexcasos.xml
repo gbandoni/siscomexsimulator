@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_siscomex/models/rules" >
+	<fieldset name="details">
+	<!-- jcb code -->
+		<field name="id" type="hidden" default="" label="COM_SISCOMEX_SISCOMEXCASOS_ID_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_ID_DESC" readonly="true" />
+		<field name="idcriador" type="text" default="" label="COM_SISCOMEX_SISCOMEXCASOS_IDCRIADOR_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_IDCRIADOR_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="datacriacao" type="calendar" default="" label="COM_SISCOMEX_SISCOMEXCASOS_DATACRIACAO_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_DATACRIACAO_DESC" maxlength="255" required="true" multiple="false" />
+		<field name="teste" type="text" default="" label="COM_SISCOMEX_SISCOMEXCASOS_TESTE_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_TESTE_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="published" type="radio" default="" label="COM_SISCOMEX_SISCOMEXCASOS_PUBLISHED_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_PUBLISHED_DESC" maxlength="11" required="true" multiple="false" >
+<option value="0">JNO</option>
+<option value="1">JYES</option>
+</field>
+		<field name="global" type="text" default="" label="COM_SISCOMEX_SISCOMEXCASOS_GLOBAL_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_GLOBAL_DESC" maxlength="11" required="true" multiple="false" />
+		<field name="descricao" type="editor" default="" label="COM_SISCOMEX_SISCOMEXCASOS_DESCRICAO_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_DESCRICAO_DESC" maxlength="255" required="true" multiple="false" />
+		<field name="exclusivo" type="text" default="" label="COM_SISCOMEX_SISCOMEXCASOS_EXCLUSIVO_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_EXCLUSIVO_DESC" maxlength="11" required="true" multiple="false" />
+	<!-- jcb code -->
+
+	</fieldset>
+	<fields name="params">
+		<fieldset name="params" label="JGLOBAL_FIELDSET_DISPLAY_OPTIONS">
+			<!--
+			<field name="param1_list_select" type="list" label="COM_SISCOMEX_SISCOMEXCASOS_PARAM1_LABEL" description="COM_SISCOMEX_SISCOMEXCASOS_PARAM1_DESC" default="" >
+				<option value="">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+			-->
+		</fieldset>
+	</fields>
+</form>
